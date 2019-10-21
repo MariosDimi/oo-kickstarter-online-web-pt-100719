@@ -4,16 +4,16 @@ class Backer
   
   def initialize(name)
     @name = name
-    @name = "Avi"
+    backer = Backer.new("Avi")
   end
   
-  def 
+  def backer_project
   
 end
 
 
 
-bob = Backer.new("Bob")
+
 awesome_project = Project.new("This is an Awesome Project")
  
 bob.back_project(awesome_project)
