@@ -8,7 +8,7 @@ class Backer
   end
   
   def backer_project(project)
-    
+    backer_project = []
   
 end
 
